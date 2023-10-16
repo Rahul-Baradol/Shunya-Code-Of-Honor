@@ -402,7 +402,6 @@ export default function Registrations() {
                   Robotics and Automation
                 </option>
                 <option value="Bigdata Analytics">Bigdata Analytics</option>
-                <option value="Applied Mathematics">Applied Mathematics</option>
               </select>
             </label>
 

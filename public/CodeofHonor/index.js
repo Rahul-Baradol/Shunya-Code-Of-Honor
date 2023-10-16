@@ -1,5 +1,9 @@
-import codeofhonor from './mainLogo.png'
+import codeofhonor from './mainLogoUpdated.png'
+import bg from './CoH_bg.png'
+import smpColab from './smp_colab.png'
 
 export {
-    codeofhonor
+    codeofhonor,
+    bg,
+    smpColab
 }

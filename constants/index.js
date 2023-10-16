@@ -45,23 +45,7 @@ export const exploreWorlds = [
       'Data Mining',
       'Data Visualization',
     ],
-  },
-  {
-    id: 'world-4',
-    imgUrl: './assets/appliedMath.png',
-    title: 'Applied Math & Applications',
-    tracks: [
-      'Linear algebra',
-      'Differential equations and Fourier analysis',
-      'Differential and computational geometry',
-      'Probability and statistics',
-      'Numerical analysis',
-      'Operations research and optimization',
-      'Experimental physics',
-      'Chemical sciences',
-      'Biological science',
-    ],
-  },
+  }
 ];
 
 export const startingFeatures = [
@@ -74,7 +58,7 @@ export const newFeatures = [
   {
     imgUrl: './icons/calendar.svg',
     title: 'Date',
-    subtitle: '8th - 9th April 2023',
+    subtitle: '4th and 5th November 2023',
   },
   {
     imgUrl: './icons/map.svg',
@@ -89,7 +73,7 @@ export const newFeatures = [
   {
     imgUrl: './icons/calendar.svg',
     title: 'DeadLine',
-    subtitle: '11:59 PM 31st March 2023',
+    subtitle: '27 October 2023',
   },
 ];
 

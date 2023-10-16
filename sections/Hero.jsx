@@ -76,7 +76,7 @@ import Image from 'next/image';
 
 // export default Hero;
 
-// import { codeofhonor } from '@public/assets/CodeOfHonor'
+import { codeofhonor, bg } from '../public/CodeofHonor';
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(false);
@@ -92,11 +92,9 @@ function Hero() {
   }, []);
   return (
     <>
-      <div>
-        <div>
-          {/* <Image 
-            src={codeofhonor}
-          /> */}
+      <div className='relative flex justify-center items-center w-full'>
+        <div >
+          <Image src={codeofhonor} alt="Code Of Honor" />
         </div>
       </div>
     </>
