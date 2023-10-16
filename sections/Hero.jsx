@@ -76,7 +76,7 @@ import Image from 'next/image';
 
 // export default Hero;
 
-import { codeofhonor, calendar, time, loc, dummyqr } from '../public/CodeofHonor';
+import { codeofhonor, calendar, time, loc, dummyqr, registernow } from '../public/CodeofHonor';
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(false);
@@ -152,6 +152,28 @@ function Hero() {
               src={dummyqr}
               alt=""
             />
+          </div>
+        </div>
+
+        <div className='flex flex-col w-[75vw] items-center'>
+          <div>
+            <Image
+              src={registernow}
+              alt="Register Now!"
+            />
+          </div>
+
+          <div className='p-2 text-white flex flex-col gap-2 items-center text-xl sm:flex-row w-[75vw] sm:justify-around'>
+            <div className='w-fit text-sm sm:text-xl flex flex-col'>
+              <div>For queries</div>
+              <div>Visit - shunyapes.com</div>
+              <div>Follow - @shunya_pes on Instagram</div>
+            </div>
+            <div className='w-fit text-sm sm:text-xl'>
+              <div>Srinidhi Somayaji - 8217296487</div>
+              <div>Shikhar JaiswaL - 8295556760</div>
+              <div>Thanush Lodha - 8105462596</div>
+            </div>
           </div>
         </div>
       </div>

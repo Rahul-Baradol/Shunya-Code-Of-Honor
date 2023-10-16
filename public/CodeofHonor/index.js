@@ -7,6 +7,7 @@ import calendar from './calendar.png'
 import loc from './loc.png'
 import time from './time.png'
 import dummyqr from './dummyqrcode.png'
+import registernow from './registernow.png'
 
 export {
     codeofhonor,
@@ -17,5 +18,6 @@ export {
     calendar,
     loc,
     time,
-    dummyqr
+    dummyqr,
+    registernow
 }
