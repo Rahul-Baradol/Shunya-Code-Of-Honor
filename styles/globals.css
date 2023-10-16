@@ -40,13 +40,3 @@ body {
   margin: 0;
   padding: 0;
 }
-
-@media only screen and (max-width: 600px) {
-  body,
-  html {
-    background: #000000;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-  }
-}

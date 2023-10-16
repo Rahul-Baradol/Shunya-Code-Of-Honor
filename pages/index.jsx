@@ -11,14 +11,22 @@ import {
 // import FAQ from '../sections/FAQ';
 // import styles from '../styles';
 
-import { codeofhonor, bg } from '../public/CodeofHonor';
-import Image from 'next/image';
 
 const Home = () => (
   <>
-  <div className=" overflow-hidden w-[100vw]">
-    <div className='absolute -z-10 top-0 w-[100vw] h-fit'>
-      <Image className='w-[100vw] h-[90vh]' src={bg} alt="" priority={true} />
+  <style jsx>
+    {`
+        .person {
+          width: 100vw;
+        }
+    `}
+  </style>
+  <div className="overflow-hidden ">
+    <div className='absolute -z-10'>
+      <img 
+        src="/CodeofHonor/CoH_bg.png"
+        className='person'
+      />
     </div>
     <div className="relative">
       <div className="gradient-03 z-0" />
