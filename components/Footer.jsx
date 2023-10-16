@@ -2,14 +2,12 @@
 
 'use client';
 
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { motion, useAnimation, useInView } from 'framer-motion';
 import { useRouter } from 'next/router';
 import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
-import { useRef } from 'react';
-import { useEffect } from 'react';
 
 function Footer() {
   const router = useRouter();
@@ -18,11 +16,11 @@ function Footer() {
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
 
-  useEffect(()=>{
+  useEffect(() => {
     if (isInView) {
-      mainControls.start("show");
+      mainControls.start('show');
     }
-  }, [ref, isInView, mainControls])
+  }, [ref, isInView, mainControls]);
 
   return (
     <motion.footer
@@ -63,7 +61,7 @@ function Footer() {
 
             <div className="flex gap-4">
               {socials.map((social, index) => (
-                <a href={social.link} key={index} >
+                <a href={social.link} key={index}>
                   <img
                     key={social.name}
                     src={social.url}
