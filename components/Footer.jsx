@@ -3,26 +3,40 @@
 'use client';
 
 import React from 'react';
-import { motion } from 'framer-motion';
+import { motion, useAnimation, useInView } from 'framer-motion';
 import { useRouter } from 'next/router';
 import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
+import { useRef } from 'react';
+import { useEffect } from 'react';
 
 function Footer() {
   const router = useRouter();
+
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+  const mainControls = useAnimation();
+
+  useEffect(()=>{
+    if (isInView) {
+      mainControls.start("show");
+    }
+  }, [ref, isInView, mainControls])
+
   return (
     <motion.footer
+      ref={ref}
       variants={footerVariants}
+      animate={mainControls}
       initial="hidden"
-      whileInView="show"
       className={`${styles.xPaddings} py-8 relative`}
     >
       <div className="footer-gradient" />
       <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
         <div className="flex items-center justify-between flex-wrap gap-5">
           <h4 className="font-bold md:text-[64px] text-[44px] text-white">
-            Register for Arithemania
+            Register for Code Of Honor
           </h4>
           <button
             type="button"
@@ -44,7 +58,7 @@ function Footer() {
           <div className="flex items-center justify-between flex-wrap gap-4">
             <h4 className="font-extrabold text-[24px] text-white">Shunya</h4>
             <p className="font-normal text-[14px] text-white opacity-50">
-              Copyright © 2021 - 2022 ShunyaPES. All rights reserved.
+              Copyright © ShunyaPES. All rights reserved.
             </p>
 
             <div className="flex gap-4">

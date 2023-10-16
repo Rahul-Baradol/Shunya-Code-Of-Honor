@@ -16,10 +16,10 @@ import Image from 'next/image';
 
 const Home = () => (
   <>
-  <div className='absolute -z-10 top-0 w-[100vw] h-fit'>
-        <Image className=' w-[100vw] h-[90vh]' src={bg} />
-  </div>
   <div className=" overflow-hidden w-[100vw]">
+    <div className='absolute -z-10 top-0 w-[100vw] h-fit'>
+      <Image className='w-[100vw] h-[90vh]' src={bg} alt="" priority={true} />
+    </div>
     <div className="relative">
       <div className="gradient-03 z-0" />
       <div>

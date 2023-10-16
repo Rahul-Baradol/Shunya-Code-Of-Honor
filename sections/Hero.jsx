@@ -76,7 +76,7 @@ import Image from 'next/image';
 
 // export default Hero;
 
-import { codeofhonor, bg } from '../public/CodeofHonor';
+import { codeofhonor, calendar, time, loc, dummyqr } from '../public/CodeofHonor';
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(false);
@@ -92,9 +92,67 @@ function Hero() {
   }, []);
   return (
     <>
-      <div className='relative flex justify-center items-center w-full'>
-        <div >
-          <Image src={codeofhonor} alt="Code Of Honor" />
+      <style jsx>
+        {`
+          .cont {
+            width: min(90vw, 400px);
+          }
+        `}
+      </style>
+
+      <div className='relative flex justify-center flex-col items-center w-full'>
+        <div className='flex flex-col items-center justify-center text-white p-4 text-xl md:text-3xl'>
+          <div className=''>
+            Shunya Presents
+          </div>
+          <div>
+            <Image src={codeofhonor} alt="Code Of Honor"/>
+          </div>
+        </div>
+
+        <div className='flex flex-col items-center gap-6 md:flex-row w-[70vw] md:justify-between p-2 md:items-center'>
+          <div className='h-fit'>
+            <div className='flex flex-row items-center cont'>
+                <div>
+                  <Image 
+                    src={calendar}
+                    alt=""
+                  />
+                </div>
+                <div className='text-white h-fit text-2xl flex flex-row justify-center items-center'> 
+                  4th & 5th November
+                </div>
+            </div>
+            <div className='flex flex-row items-center cont'>
+                <div>
+                    <Image 
+                      src={time}
+                      alt=""
+                    />
+                </div>
+                <div className='text-white h-fit text-2xl'> 
+                  PESU'52
+                </div>
+            </div>
+            <div className='flex flex-row items-center cont'>
+              <div>
+                <Image 
+                  src={loc}
+                  alt=""
+                />
+              </div>
+              <div className='text-white h-fit text-2xl'> 
+                8 am onwards
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <Image
+              src={dummyqr}
+              alt=""
+            />
+          </div>
         </div>
       </div>
     </>
