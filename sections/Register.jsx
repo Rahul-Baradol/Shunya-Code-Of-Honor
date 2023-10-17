@@ -444,10 +444,10 @@ export default function Registrations() {
                 <div className="text-sm">
                   You can follow the following template and submit it as a link -
                   <Link
-                    href="https://docs.google.com/presentation/d/1btIy1lI56-jyK-u-1Xa4Zw1CnvnEksqlNrfKwaSkN9g/edit?usp=sharing"
+                    href="https://www.canva.com/design/DAFxh3f-dsQ/P1qp-_c_WvXG_mdbpyM92g/edit?utm_content=DAFxh3f-dsQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                     target="_blank"
                   >
-                    <span className="text-xl text-blue-400"> Idea template</span>
+                    <span className="text-xl text-blue-400"> Idea template </span>
                   </Link>
                   (Optional)
                 </div>
@@ -689,7 +689,9 @@ export default function Registrations() {
                 className="text-white border-[1px] p-[15px] rounded w-[50%] mb-[30px] mt-20 font-extrabold text-2xl hover:bg-[rgba(0,0,0,0.3)]"
                 type="submit"
               >
-                {loading ? 'Submitting...' : 'Register'}
+                <div className='text-sm md:text-lg'>
+                  {loading ? 'Submitting...' : 'Register'}
+                </div>
               </button>
             </form>
           </div>

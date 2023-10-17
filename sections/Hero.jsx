@@ -106,7 +106,7 @@ function Hero() {
 
       <div className='relative flex justify-center flex-col items-center w-full'>
         <div className='flex flex-col items-center justify-center text-white p-4 text-xl md:text-3xl'>
-          <div className=''>
+          <div className='font-serif'>
             Shunya Presents
           </div>
           <div>
@@ -176,7 +176,7 @@ function Hero() {
             </div>
             <div className='w-fit text-sm sm:text-xl'>
               <div>Srinidhi Somayaji - 8217296487</div>
-              <div>Shikhar JaiswaL - 8295556760</div>
+              <div>Shikhar Jaiswal - 8295556760</div>
               <div>Thanush Lodha - 8105462596</div>
             </div>
           </div>
