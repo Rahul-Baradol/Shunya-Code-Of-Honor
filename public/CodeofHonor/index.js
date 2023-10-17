@@ -6,7 +6,7 @@ import pes from './pes.png'
 import calendar from './calendar.png'
 import loc from './loc.png'
 import time from './time.png'
-import qr from './qr.png'
+import qr from './newQr.png'
 import registernow from './registernow.png'
 
 export {

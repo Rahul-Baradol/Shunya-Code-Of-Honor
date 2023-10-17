@@ -22,7 +22,7 @@ const Explore = () => {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TypingText title="| Tracks" textStyles="text-center" />
+        <TypingText title="| Possible Areas" textStyles="text-center" />
         <TitleText
           title={
             <>

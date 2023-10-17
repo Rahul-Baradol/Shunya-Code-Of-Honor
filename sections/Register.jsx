@@ -393,7 +393,7 @@ export default function Registrations() {
                 />
               </label>
   
-              <label className="text-lg flex flex-col font-mono text-white mb-6 font-bold w-full">
+              {/* <label className="text-lg flex flex-col font-mono text-white mb-6 font-bold w-full">
                 Domain
                 <select
                   className="text-base w-full h-12 rounded mt-4 pl-2 pr-2 text-white font-mono font-normal bg-primary-blue border-[1px] border-[#374151] focus:outline-none"
@@ -407,7 +407,7 @@ export default function Registrations() {
                   </option>
                   <option value="Bigdata Analytics">Bigdata Analytics</option>
                 </select>
-              </label>
+              </label> */}
   
               <label className="text-lg flex flex-col font-mono text-white mb-6 font-bold w-full">
                 Problem Statement
