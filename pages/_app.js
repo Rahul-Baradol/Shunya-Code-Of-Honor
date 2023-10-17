@@ -5,7 +5,7 @@ import '../styles/globals.css';
 const MyApp = ({ Component, pageProps }) => (
   <>
     <Head>
-      <title>Code Of Honor | Shunya</title>
+      <title>Code Of Honour | Shunya</title>
       <meta
         name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1"
