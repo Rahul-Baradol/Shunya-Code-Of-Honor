@@ -1,4 +1,4 @@
-import codeofhonor from './mainLogoUpdated.png'
+import codeofhonor from './mainLogoNonPix.png'
 import bg from './CoH_bg.png'
 import smpColab from './smp_colab.png'
 import shunya from './shunyaUpdated.png'

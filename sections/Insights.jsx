@@ -83,9 +83,6 @@ function Insights() {
                   <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
                     Data science and intelligent communication
                   </h4>
-                  <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-                    powered by IEEE SPS and ComSoc Bangalore Chapters
-                  </p>
                 </div>
 
                 <button
@@ -185,9 +182,6 @@ function Insights() {
                   <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
                     Robotics and Automation
                   </h4>
-                  <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-                    powered by IEEE RAS Bangalore Chapter
-                  </p>
                 </div>
 
                 <button
@@ -283,9 +277,6 @@ function Insights() {
                   <h4 className="font-normal lg:text-[42px] text-[26px] text-white">
                     Bigdata analytics
                   </h4>
-                  <p className="mt-[16px] font-normal lg:text-[20px] text-[14px] text-secondary-white">
-                    powered by IEEE CS Bangalore Chapter
-                  </p>
                 </div>
 
                 <button
