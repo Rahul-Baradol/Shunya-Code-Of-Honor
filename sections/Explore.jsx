@@ -26,8 +26,7 @@ const Explore = () => {
         <TitleText
           title={
             <>
-              Choose the track you want <br className="md:block hidden" /> to
-              explore
+              Areas you can explore 
             </>
           }
           textStyles="text-center"

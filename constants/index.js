@@ -49,7 +49,6 @@ export const exploreWorlds = [
 ];
 
 export const startingFeatures = [
-  'Find a track that suits you',
   'Create a team and pitch your idea',
   'Get a mentor and start working on your project',
 ];
