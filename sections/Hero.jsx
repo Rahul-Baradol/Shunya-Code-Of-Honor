@@ -126,7 +126,7 @@ function Hero() {
             <div className='flex flex-row items-center cont'>
                 <div>
                     <Image 
-                      src={time}
+                      src={loc}
                       alt=""
                     />
                 </div>
@@ -137,7 +137,7 @@ function Hero() {
             <div className='flex flex-row items-center cont'>
               <div>
                 <Image 
-                  src={loc}
+                  src={time}
                   alt=""
                 />
               </div>

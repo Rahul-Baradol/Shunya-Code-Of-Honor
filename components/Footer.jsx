@@ -8,6 +8,8 @@ import { useRouter } from 'next/router';
 import { socials } from '../constants';
 import styles from '../styles';
 import { footerVariants } from '../utils/motion';
+import Image from 'next/image';
+import { shunya } from '../public/CodeofHonor';
 
 function Footer() {
   const router = useRouter();
@@ -54,7 +56,13 @@ function Footer() {
           <div className="mb-[50px] h-[2px] bg-white opacity-10" />
 
           <div className="flex items-center justify-between flex-wrap gap-4">
-            <h4 className="font-extrabold text-[24px] text-white">Shunya</h4>
+            <div>
+              <Image
+                src={shunya}
+                className='w-[6vw] h-auto'
+                alt="Shunya"
+              />
+            </div>
             <p className="font-normal text-[14px] text-white opacity-50">
               Copyright © ShunyaPES. All rights reserved.
             </p>

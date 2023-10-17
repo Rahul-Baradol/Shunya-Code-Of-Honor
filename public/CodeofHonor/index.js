@@ -19,5 +19,5 @@ export {
     loc,
     time,
     dummyqr,
-    registernow
+    registernow,
 }

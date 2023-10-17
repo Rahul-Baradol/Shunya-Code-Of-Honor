@@ -22,7 +22,7 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
         <span>
-          <span className="font-extrabold text-white">Arithemania</span>,
+          {/* Welcome to <span className="font-extrabold text-white">Code of Honour</span>,
           Shunya's signature event and the{' '}
           <span className="font-extrabold text-white">
             first ever 30-hour hackathon{' '}
@@ -40,7 +40,9 @@ const About = () => (
           </span>{' '}
           and other cutting-edge areas of study. It's a one-of-a-kind platform
           for students to connect with like-minded peers, broaden their
-          horizons, and discover new opportunities.
+          horizons, and discover new opportunities. */}
+
+          Welcome to 'Code Of Honour' - Shunya's epic 24-hour coding journey! Get ready for a coding adventure that will ignite your passion for programming. Join us as we dive deep into the heart of code ethics, principles, and the thrill of coding excellence. Connect with fellow enthusiasts, embrace the coding spirit, and emerge with new skills and a fresh perspective. 'Code Of Honour' - where coding dreams become reality. Don't miss it!
         </span>
       </motion.p>
 
