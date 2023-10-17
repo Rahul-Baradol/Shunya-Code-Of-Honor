@@ -76,7 +76,7 @@ import Image from 'next/image';
 
 // export default Hero;
 
-import { codeofhonor, calendar, time, loc, dummyqr, registernow } from '../public/CodeofHonor';
+import { codeofhonor, calendar, time, loc, qr, registernow } from '../public/CodeofHonor';
 
 function Hero() {
   const [isMobile, setIsMobile] = useState(false);
@@ -96,6 +96,10 @@ function Hero() {
         {`
           .cont {
             width: min(90vw, 400px);
+          }
+
+          .qrcode {
+            width: 10vw;
           }
         `}
       </style>
@@ -149,7 +153,8 @@ function Hero() {
 
           <div>
             <Image
-              src={dummyqr}
+              src={qr}
+              className='sm:w-[10vw] w-[40vw]'
               alt=""
             />
           </div>

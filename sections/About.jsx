@@ -42,7 +42,8 @@ const About = () => (
           for students to connect with like-minded peers, broaden their
           horizons, and discover new opportunities. */}
 
-          Welcome to 'Code Of Honour' - Shunya's epic 24-hour coding journey! Get ready for a coding adventure that will ignite your passion for programming. Join us as we dive deep into the heart of code ethics, principles, and the thrill of coding excellence. Connect with fellow enthusiasts, embrace the coding spirit, and emerge with new skills and a fresh perspective. 'Code Of Honour' - where coding dreams become reality. Don't miss it!
+          Welcome to <span className="font-extrabold text-orange-500"> Code Of Honour </span>{' '}
+           - Shunya's epic 24-hour coding journey! Get ready for a coding adventure that will ignite your passion for programming. Join us as we dive deep into the heart of code ethics, principles, and the thrill of coding excellence. Connect with fellow enthusiasts, embrace the coding spirit, and emerge with new skills and a fresh perspective. <span className="font-extrabold text-orange-500"> Code Of Honour </span>{' '} - where coding dreams become reality. Don't miss it!
         </span>
       </motion.p>
 

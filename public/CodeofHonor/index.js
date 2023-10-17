@@ -6,7 +6,7 @@ import pes from './pes.png'
 import calendar from './calendar.png'
 import loc from './loc.png'
 import time from './time.png'
-import dummyqr from './dummyqrcode.png'
+import qr from './qr.png'
 import registernow from './registernow.png'
 
 export {
@@ -18,6 +18,6 @@ export {
     calendar,
     loc,
     time,
-    dummyqr,
+    qr,
     registernow,
 }
