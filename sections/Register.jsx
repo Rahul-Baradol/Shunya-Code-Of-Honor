@@ -449,7 +449,7 @@ export default function Registrations() {
                   >
                     <span className="text-xl text-blue-400"> Idea template </span>
                   </Link>
-                  (Optional)
+                  (Optional) (Make a Copy)
                 </div>
                 <input
                   className="text-base focus:outline-none w-full h-12 rounded mt-4 pl-2 pr-2 text-white font-mono font-normal bg-transparent border-[1px] border-[#374151]"
