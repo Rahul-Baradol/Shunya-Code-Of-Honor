@@ -45,6 +45,9 @@ const About = () => (
           Welcome to <span className="font-extrabold text-orange-500"> Code Of Honour </span>{' '}
            - Shunya's epic 24-hour coding journey! Get ready for a coding adventure that will ignite your passion for programming. Join us as we dive deep into the heart of code ethics, principles, and the thrill of coding excellence. Connect with fellow enthusiasts, embrace the coding spirit, and emerge with new skills and a fresh perspective. <span className="font-extrabold text-orange-500"> Code Of Honour </span>{' '} - where coding dreams become reality. Don't miss it!
         </span>
+        <span className='block font-serif italic  mt-7'>
+          Get a chance to win prizes and goodies worth 20,00,000+
+        </span>
       </motion.p>
 
       <motion.img
