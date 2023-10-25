@@ -10,6 +10,13 @@ import { fadeIn, staggerContainer } from '../utils/motion';
 
 const Feedback = () => (
   <>
+    <style>
+      {`
+        .vid {
+          width: min(70vw, 300px);
+        }
+      `}
+    </style>
     <section className={`${styles.paddings}`}>
       <motion.div
         variants={staggerContainer}
@@ -78,7 +85,7 @@ const Feedback = () => (
             // allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             // allowFullScreen
             // className="w-full lg:h-[610px] h-auto min-h-[210px] object-cover rounded-[40px]"
-            className='w-[20vw]'
+            className={`vid`}
             muted
             loop
             autoPlay

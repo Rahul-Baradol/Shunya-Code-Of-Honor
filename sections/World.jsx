@@ -47,17 +47,27 @@ const World = () => {
             className="relative justify-center items-center  flex w-full h-fit sm:h-fit"
           >
             <div className="flex justify-center items-center flex-wrap gap-10 relative p-10">
-              <img
-                src="./sponsors/4.png"
-                alt="sponsors"
-                className={`w-[60vw] h-[20vh] lg:w-[40vw]  object-contain px-10 bg-slate-300 rounded-full`}
-              />
-              <img
-                src="./sponsors/echo.png"
-                alt="sponsors"
-                className={`w-[60vw] h-[20vh] lg:w-[40vw] object-contain px-10 bg-slate-300 rounded-full`}
-              />
-              <div className='text-white flex flex-col justify-center items-center gap-5 text-2xl'>
+              <div className='text-white flex flex-col justify-center items-center gap-12 text-2xl'>
+                <img
+                  src="./sponsors/wolfram.png"
+                  alt="sponsors"
+                  className={`w-[60vw] h-[20vh] lg:w-[40vw]  object-contain px-10 bg-slate-300 rounded-full`}
+                />
+                <div className='border-l-2 h-fit w-fit pl-3'>
+                  Founded by Stephen Wolfram in 1987, Wolfram Research is one of the world's most respected computer, web, and cloud software companies—as well as a powerhouse of scientific and technical innovation. As pioneers in computation and computational knowledge, we have pursued a long-term vision to develop the science, technology, and tools to make computation an ever-more-potent force in today's and tomorrow's world.
+                </div>
+              </div>
+              <div className='text-white flex flex-col justify-center items-center gap-12 text-2xl'>
+                <img
+                  src="./sponsors/echo.png"
+                  alt="sponsors"
+                  className={`w-[60vw] h-[20vh] lg:w-[40vw] object-contain px-10 bg-slate-300 rounded-full`}
+                />
+                <div className='border-l-2 h-fit w-fit pl-3'> 
+                  Echo3D is a cloud platform for 3D/AR/VR that provides tools and network infrastructure to help developers & companies quickly build and deploy 3D games, apps, and content
+                </div>
+              </div>
+              <div className='text-white flex flex-col justify-center items-center gap-12 text-2xl'>
                 <img
                   src="./sponsors/Oreilly.png"
                   alt="sponsors"
