@@ -8,6 +8,7 @@ import loc from './loc.png'
 import time from './time.png'
 import qr from './newQr.png'
 import registernow from './registernow.png'
+import oerilly from './Oreilly.png'
 
 export {
     codeofhonor,
@@ -20,4 +21,5 @@ export {
     time,
     qr,
     registernow,
+    oerilly
 }
