@@ -42,10 +42,10 @@ const World = () => {
         >
           <TitleText title={<>Sponsors</>} textStyles="text-center" />
     
-          <motion.div
+          {/* <motion.div
             variants={fadeIn('up', 'tween', 0.3, 1)}
             className="relative justify-center items-center  flex w-full h-fit sm:h-fit"
-          >
+          > */}
             <div className="flex justify-center items-center flex-wrap gap-10 relative p-10">
               <div className='text-white flex flex-col justify-center items-center gap-12 text-2xl'>
                 <img
@@ -78,7 +78,7 @@ const World = () => {
                 </div>
               </div>
             </div>
-          </motion.div>
+          {/* </motion.div> */}
           <TypingTextLarge title="In Collaboration with" textStyles="text-center" />
           <div>
             <motion.div
