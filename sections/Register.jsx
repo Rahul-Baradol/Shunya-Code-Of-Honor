@@ -539,7 +539,7 @@ export default function Registrations() {
                 ></textarea>
               </label>
   
-              <label className="text-lg flex flex-col font-mono text-white mb-6 font-bold w-full">
+              {/*<label className="text-lg flex flex-col font-mono text-white mb-6 font-bold w-full">
                 Idea Presentation Link
                 <div className="text-sm">
                   You can follow the following template and submit it as a link -
@@ -556,7 +556,7 @@ export default function Registrations() {
                   value={link}
                   onChange={(e) => setLink(e.target.value)}
                 ></input>
-              </label>
+              </label>*/}
   
               <div className="flex flex-col mt-[30px] w-full">
                 <div className="flex flex-row items-center justify-between mb-[20px]">
