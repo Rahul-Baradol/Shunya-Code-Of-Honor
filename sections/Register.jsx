@@ -170,11 +170,8 @@ export default function Registrations() {
       toast('Solution cannot be empty');
       return;
     }
-    // if (link.length === 0) {
-    //   toast('Link cannot be empty');
-    //   return;
-    // }
-    for (let i = 0; i < teamMembers.length; i++) {
+
+    for (let i = 0; i < 3; i++) {
       const member = teamMembers[i];
       if (member.name.length === 0) {
         toast(`Name Field - ${member.id} empty`);
@@ -226,6 +223,109 @@ export default function Registrations() {
     }
 
     handleSubmit();
+
+    // if (link.length === 0) {
+    //   toast('Link cannot be empty');
+    //   return;
+    // }
+
+
+    
+    // let cntmem = 0, cntsrn = 0, cntemail = 0, cntphone = 0, cntbranch = 0, cntguardian_name = 0;
+    // let cntguardian_phone = 0, cnthostel_room = 0;
+
+    // let firstJob = new Promise((resolve, reject) => {
+    //   for (let i = 0; i < teamMembers.length; i++) {
+    //     const member = teamMembers[i];
+    //     if (member.name.length === 0) {
+    //       cntmem++;
+    //       // toast(`Name Field - ${member.id} empty`);
+    //       // return;
+    //     }
+    //     if (
+    //       member.srn.length === 0 ||
+    //       !member.srn.includes('PES' || 'pes') ||
+    //       member.srn.length < 13
+    //     ) {
+    //       cntsrn++;
+    //       // toast(`SRN - ${member.id} invalid`);
+    //       // return;
+    //     }
+    //     if (!member.email.includes('@') && !member.email.includes('.')) {
+    //       cntemail++;
+    //       // toast(`Email - ${member.id} invalid`);
+    //       // return;
+    //     }
+    //     if (
+    //       member.phone === '' ||
+    //       member.phone.toString().length < 10 ||
+    //       member.phone.toString().length > 10
+    //     ) {
+    //       cntphone++;
+    //       // toast(`Phone - ${member.id} invalid`);
+    //       // return;
+    //     }
+    //     if (member.branch === 'Others') {
+    //       if (member.other_branch.length === 0) {
+    //         cntbranch++;
+    //         // toast(`Branch Name - ${member.id} empty`);
+    //       }
+    //     }
+    //     if (member.guardian_name.length === 0) {
+    //       cntguardian_name++;
+    //       // toast(`Parents Name - ${member.id} empty`);
+    //       // return;
+    //     }
+    //     if (
+    //       member.guardian_phone === '' ||
+    //       member.guardian_phone.toString().length < 10 ||
+    //       member.guardian_phone.toString().length > 10
+    //     ) {
+    //       cntguardian_phone++;
+    //       // toast(`Parents Phone - ${member.id} invalid`);
+    //       // return;
+    //     }
+    //     if (member.is_hostellite) {
+    //       if (member.hostel_room.length === 0) {
+    //         cnthostel_room++;
+    //         // toast(`Enter Hostel Room - ${member.id}`);
+    //         // return;
+    //       }
+    //     }
+    //   }
+    //   resolve();
+    // })
+
+    // firstJob.then(()=>{
+    //   if (cntmem > 1) {
+    //     toast(`Name Field - ${member.id} empty`);
+    //     return;
+    //   } else if (cntsrn > 1) {
+    //     toast(`SRN - ${member.id} invalid`);
+    //     return;
+    //   } else if (cntemail > 1) {
+    //     toast(`Email - ${member.id} invalid`);
+    //     return;
+    //   } else if (cntphone > 1) {
+    //     toast(`Phone - ${member.id} invalid`);
+    //     return;
+    //   } else if (cntbranch > 1) {
+    //     toast(`Branch Name - ${member.id} empty`);
+    //     return;
+    //   } else if (cntguardian_name  > 1) {
+    //     toast(`Parents Name - ${member.id} empty`);
+    //     return;
+    //   } else if (cntguardian_phone > 1) {
+    //     toast(`Parents Phone - ${member.id} invalid`);
+    //     return;
+    //   } else if (cnthostel_room > 1) {
+    //     toast(`Enter Hostel Room - ${member.id}`);
+    //     return;
+    //   } else {
+    //     handleSubmit();
+    //   }
+    // })
+
   };
 
   const handleTextChange = (id, newValue, field) => {

@@ -67,7 +67,7 @@ export const newFeatures = [
   {
     imgUrl: './icons/online-learning.svg',
     title: 'Team Size',
-    subtitle: 'Exactly 4 members',
+    subtitle: 'Exactly 3 - 4 members',
   },
   {
     imgUrl: './icons/calendar.svg',
