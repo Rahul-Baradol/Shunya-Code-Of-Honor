@@ -4,7 +4,7 @@ import Navbar from '../components/Navbara';
 import Footer from '../components/Footera';
 import Registrations from '../sections/Register';
 import { GetStarted, Insights } from '../sections';
-// import styles from '../styles';
+import styles from '../styles';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden w-[100vw]">
@@ -26,8 +26,8 @@ const Home = () => (
     <div className="relative">
       <div className="gradient-02 z-0" />
       <div className="gradient-04 z-0" />
-      <Registrations />
-      {/* <div className={`${styles.paddings1} relative z-10`}>
+      {/* <Registrations /> */}
+      <div className={`${styles.paddings1} relative z-10`}>
         <div className="flex flex-col text-left items-center w-full sm:rounded-[20px] sm:border-[1px] sm:border-[#6A6A6A] relative sm:p-10 sm:gradient-05">
           <p className="font-extrabold text-2xl text-white text-center">
             Registrations Closed
@@ -40,7 +40,7 @@ const Home = () => (
             or any of our socials
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
     <Footer />
   </div>
