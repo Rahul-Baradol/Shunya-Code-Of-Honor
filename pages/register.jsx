@@ -2,7 +2,7 @@
 
 import Navbar from '../components/Navbara';
 import Footer from '../components/Footera';
-import Registrations from '../sections/Register';
+// import Registrations from '../sections/Register';
 import { GetStarted, Insights } from '../sections';
 import styles from '../styles';
 
